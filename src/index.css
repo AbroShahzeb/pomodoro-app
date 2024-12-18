@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Roboto+Slab:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading-1 {
+    @apply text-[100px] leading-[120px] tracking-[-5px] font-bold;
+  }
+  .heading-1-small {
+    @apply text-[80px] leading-normal tracking-[-10px] font-bold;
+  }
+
+  .heading-1-small-theme1 {
+    @apply text-[80px] leading-normal tracking-[-4px] font-bold;
+  }
+
+  .heading-1-small-theme2 {
+    @apply text-[80px] leading-normal  font-bold;
+  }
+  .heading-1-small-theme3 {
+    @apply text-[80px] leading-normal tracking-[-10px]  font-[400];
+  }
+  .heading-2 {
+    @apply text-[28px] leading-[34px] font-bold;
+  }
+  .heading-3 {
+    @apply text-[16px] leading-[19px] tracking-[15px] uppercase font-bold;
+  }
+  .heading-4 {
+    @apply text-[13px] leading-[16px] tracking-[5px] uppercase font-bold;
+  }
+  .body-1 {
+    @apply text-[14px] leading-[18px] font-bold;
+  }
+  .body-2 {
+    @apply text-[12px] leading-[14px];
+  }
+}
+
+/* Hide arrows for Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide arrows for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
