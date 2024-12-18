@@ -126,7 +126,7 @@ function App() {
               colors={colors}
             />
           </div>
-          <div className="mb-[48px] sm:mb-[103px] lg:mb-[56px]">
+          <div className="mb-[48px] sm:mb-[103px] lg:mb-[56px] w-full flex justify-center">
             <Settings setModalOpen={setIsSettingOpen} />
           </div>
         </div>
