@@ -100,13 +100,13 @@ function App() {
         colors={colors}
       />
       <main
-        className={`w-full min-h-screen bg-darkOne flex items-start justify-center relative font-${fonts[selectedFontTheme]}`}
+        className={`w-full min-h-screen bg-darkOne flex items-start justify-center  relative font-${fonts[selectedFontTheme]}`}
       >
         <div>
           <div className="mb-[45px] sm:mb-[55px] mt-[32px] sm:mt-[80px] lg:mt-[48px]">
             <AppTitle />
           </div>
-          <div className="mb-[48px] sm:mb-[109px] lg:mb-[45px]">
+          <div className="mb-[48px] sm:mb-[109px] lg:mb-[45px] flex justify-center">
             <NavBar
               active={activePomodoroType}
               setActive={setActivePomodoroType}
@@ -114,7 +114,7 @@ function App() {
               colors={colors}
             />
           </div>
-          <div className="mb-[79px] sm:mb-[144px] lg:mb-[63px] justify-self-center">
+          <div className="mb-[79px] sm:mb-[144px] lg:mb-[63px] justify-self-center flex justify-center">
             <CountDown
               pomodoroStatus={pomodoroStatus}
               pomodoroTime={pomodoroTime}

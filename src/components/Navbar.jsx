@@ -19,7 +19,7 @@ export const NavBar = ({ active, setActive, selectedColorTheme, colors }) => {
     },
   };
   return (
-    <nav className="bg-darkTwo relative list-none flex items-center text-[12px] md:text-sm font-bold p-2 rounded-[31.5px] w-[327px]  md:w-[373px] h-[63px]">
+    <nav className="bg-darkTwo relative list-none flex items-center text-[12px] md:text-sm font-bold p-2 rounded-[31.5px] w-[327px]  md:w-[373px] h-[63px] ">
       <motion.div
         variants={navBackVariants}
         initial={active}
