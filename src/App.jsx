@@ -104,7 +104,7 @@ function App() {
         className={`w-full min-h-screen bg-darkOne flex items-start justify-center  relative font-${fonts[selectedFontTheme]}`}
       >
         <div>
-          <div className="mb-[45px] sm:mb-[55px] mt-[32px] sm:mt-[80px] lg:mt-[48px]">
+          <div className="mb-[45px] lg:mb-[47px] sm:mb-[55px] mt-[32px] sm:mt-[80px] lg:mt-[48px]">
             <AppTitle />
           </div>
           <div className="mb-[48px] sm:mb-[109px] lg:mb-[45px] flex justify-center">
