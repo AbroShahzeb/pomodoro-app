@@ -45,7 +45,7 @@ export const CountDown = ({
             {formatTime(pomodoroTime)}
           </p>
           <button
-            className={`heading-3 md:mt-[29px] `}
+            className={`heading-3 md:mt-[25px] `}
             onClick={() => {
               if (pomodoroStatus === "started")
                 return setPomodoroStatus("paused");

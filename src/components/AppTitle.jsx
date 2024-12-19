@@ -2,7 +2,7 @@ import { Logo } from "./icon/Logo";
 
 export const AppTitle = () => {
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-center mt-2">
       <span className="w-full flex justify-center">
         <Logo />
       </span>
