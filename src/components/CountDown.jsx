@@ -34,7 +34,7 @@ export const CountDown = ({
           trailColor: "transparent",
         })}
       >
-        <div className="text-center text-grayTwo lg:mt-12">
+        <div className="text-center text-grayTwo lg:mt-[29px]">
           <p
             className={` ${
               selectedFontTheme === "theme1" && "heading-1-small-theme1"
