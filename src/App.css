@@ -1,0 +1,11 @@
+.CircularProgressbarWithChildren__children {
+  position: absolute;
+  width: 100%;
+  height: auto !important;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  margin-top: -95%;
+}

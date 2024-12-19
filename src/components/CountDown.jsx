@@ -27,14 +27,14 @@ export const CountDown = ({
       <CircularProgressbarWithChildren
         value={percentage}
         strokeWidth={3.2786}
-        className={`p-[9.88px] md:p-[13.5px] bg-darkTwo rounded-full flex items-center justify-center`}
+        className={`p-[9.88px] md:p-[13.5px] bg-darkTwo rounded-full w-fit h-fit`}
         styles={buildStyles({
           // Colors
           pathColor: `${colors[selectedColorTheme]}`,
           trailColor: "transparent",
         })}
       >
-        <div className="text-center text-grayTwo">
+        <div className="text-center text-grayTwo lg:mt-12">
           <p
             className={` ${
               selectedFontTheme === "theme1" && "heading-1-small-theme1"

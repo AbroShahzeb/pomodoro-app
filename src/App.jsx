@@ -4,6 +4,7 @@ import { Settings } from "./components/Settings";
 import { AppTitle } from "./components/AppTitle";
 import { NavBar } from "./components/Navbar";
 import { CountDown } from "./components/CountDown";
+import "./App.css";
 
 const colors = { theme1: "#F87070", theme2: "#70F3F8", theme3: "#D881F8" };
 const fonts = {
